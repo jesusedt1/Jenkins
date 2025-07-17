@@ -1,13 +1,8 @@
 parameters:
-  level: 5
+  level: max
   paths:
     - index.php
   checkMissingIterableValueType: true
   checkMissingCallableSignature: true
   checkUnionTypes: true
-
-parameters:
-    level: max
-    paths:
-        - index.php
 
