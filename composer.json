@@ -1,4 +1,10 @@
- "require-dev": {
+{
+  "require-dev": {
     "phpstan/phpstan": "^1.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
   }
-
+}
