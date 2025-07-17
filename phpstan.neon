@@ -1,8 +1,10 @@
 parameters:
-  level: max
-  paths:
-    - index.php
-  checkMissingIterableValueType: true
-  checkMissingCallableSignature: true
-  checkUnionTypes: true
-
+    level: max
+    paths:
+        - index.php
+    checkMissingIterableValueType: true
+    checkMissingCallableSignature: true
+    checkUnionTypes: true
+    inferPrivatePropertyTypeFromConstructor: true
+    strictRules:
+        - PHPStan\Rules\Strict\StrictRule
